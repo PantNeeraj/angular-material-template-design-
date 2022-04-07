@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+.margin_top {
+  margin-top: 20px;
+}
+mat-accordion {
+  padding: 26px;
+}
+mat-divider{
+  background-color: white;
+}
+mat-icon {
+  color: white;
+}
+.container {
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  color: white;
+  margin: 20px 0 20px 20px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  padding: 15px;
+  max-width: 270px;
+  min-height: 100vh;
+}
+mat-panel-description {
+  color: white;
+}
+mat-expansion-panel {
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  color: white !important;
+  border: none;
+  margin-top: 10px;
+}
+.mat-accordion .mat-expansion-panel {
+  border-radius: 10px;
+}
+mat-panel-title.mat-expansion-panel-header-title {
+  color: white;
+}
+.sub_container img {
+  max-width: 32px;
+  height: 32px;
+}
+.sub_container {
+  text-decoration: none;
+  text-align: center;
+}
+
+.sub_container p {
+  display: inline-block;
+  /* margin: 0; */
+  margin-left: 10px;
+  color: white;
+  font-weight: 700;
+}
+mat-panel-title img {
+  max-width: 36px;
+  min-height: 36px;
+  border-radius: 50px;
+}
+mat-panel-description {
+  font-size: 0.875rem;
+}
+mat-expansion-panel-header {
+  /* margin: 12px 0; */
+  border: none;
+}
+
+.first,
+.second,
+.third {
+  margin-top: 30px;
+}
+.first:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  transition: 0.5s;
+}
+.second:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  transition: 0.5s;
+}
+.third:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  transition: 0.5s;
+}
+.first::before {
+  content: "M";
+  margin-right: 15px;
+}
+.second::before {
+  content: "S";
+  margin-right: 15px;
+}
+.third::before {
+  content: "L";
+  margin-right: 15px;
+}
+.first-1::before {
+  content: "A";
+  margin-right: 15px;
+}
+.second-1::before {
+  content: "S";
+  margin-right: 15px;
+}
+.first-1,
+.second-1 {
+  margin-top: 30px;
+}
+.first-1:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  transition: 0.5s;
+}
+.second-1:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  transition: 0.5s;
+}
+.pages {
+  margin: 10px;
+  font-weight: 500;
+}
+.profile::before {
+  content: "P";
+  margin-right: 15px;
+}
+
+.profile,
+.All,
+.Settings,
+.Billings,
+.Invoice,
+.New,
+.Time,
+.Pricing,
+.Kanban,
+.Wizard,
+.Data,
+.Calender,
+.Products,
+.Orders,
+.Basic,
+.Cover,
+.Illustration {
+  margin-top: 22px;
+}
+.All::before {
+  content: "P";
+  margin-right: 15px;
+}
+
+.Settings::before {
+  content: "S";
+  margin-right: 15px;
+}
+
+.Billings::before {
+  content: "B";
+  margin-right: 15px;
+}
+
+.Invoice::before {
+  content: "I";
+  margin-right: 15px;
+}
+
+.New::before {
+  content: "N";
+  margin-right: 15px;
+}
+
+.Time::before {
+  content: "T";
+  margin-right: 15px;
+}
+
+.Pricing::before {
+  content: "P";
+  margin-right: 15px;
+}
+.Kanban::before {
+  content: "K";
+  margin-right: 15px;
+}
+.Wizard::before {
+  content: "W";
+  margin-right: 15px;
+}
+.Data::before {
+  content: "D";
+  margin-right: 15px;
+}
+.Calender::before {
+  content: "C";
+  margin-right: 15px;
+}
+.Products::before {
+  content: "P";
+  margin-right: 15px;
+}
+.Orders::before {
+  content: "O";
+  margin-right: 15px;
+}
+.Basic::before {
+  content: "B";
+  margin-right: 15px;
+}
+.Cover::before {
+  content: "C";
+  margin-right: 15px;
+}
+
+.Illustration::before {
+  content: "I";
+  margin-right: 15px;
+}
+
+/* -----------for hover----- */
+.hover:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  margin-right: -22px;
+  transition: 0.5s;
+}
+.hover-1:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  margin-right: 15px;
+  transition: 0.5s;
+}
+a{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a p{
+ 
+  margin-bottom: 0;
+}

@@ -1,0 +1,33 @@
+mat-card{
+    background-color: beige;
+    padding: 45px;
+    
+    color: rgb(52, 71, 103);
+
+}
+.card-5{
+    margin-top: 50px;
+}
+mat-card p{
+    color: rgb(123, 128, 154);
+}
+table{
+    width: 100%;
+    background-color: beige;
+    box-shadow: none;
+    border: 1px solid beige;
+}
+th,td{
+    /* border: 1px solid beige; */
+    padding: 30px;
+   
+}
+
+th.mat-header-cell{
+    font-size: 20px;
+    text-align: center;
+    
+}
+td.mat-cell.cdk-cell.cdk-column-Activity.mat-column-Activity.ng-star-inserted {
+    max-width: 115px;
+}

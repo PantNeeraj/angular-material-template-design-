@@ -1,0 +1,46 @@
+<mat-card class="card-5">
+    <h2>Notifications</h2>
+     <p>Choose how you receive notifications. These notification settings apply to the things you’re watching.          </p>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8"  border="1">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <!-- <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container> -->
+
+
+    <ng-container matColumnDef="Activity">
+      <th mat-header-cell *matHeaderCellDef style="text-align: left;"> Activity </th>
+      <td mat-cell *matCellDef="let element" style="padding: 10px 24px 0;"> 
+        <div  style="font-size: 18px; color: rgb(52, 71, 103);" > {{element.key}} </div>
+        <div style="font-size: 12px; color: rgb(52, 71, 103); "> {{element.Activity}} </div>
+       </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="Email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let element" style="text-align: center;"><mat-slide-toggle></mat-slide-toggle> </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="Push">
+      <th mat-header-cell *matHeaderCellDef> Push </th>
+      <td mat-cell *matCellDef="let element" style="text-align: center;"> <mat-slide-toggle></mat-slide-toggle> </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="SMS">
+      <th mat-header-cell *matHeaderCellDef> SMS </th>
+      <td mat-cell *matCellDef="let element" style="text-align: center;"> <mat-slide-toggle></mat-slide-toggle> </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</mat-card>
+  

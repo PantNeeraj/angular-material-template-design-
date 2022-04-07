@@ -1,0 +1,65 @@
+mat-card{
+    background-color: beige;
+    color: rgb(52, 71, 103);
+}
+mat-card-title{
+    text-align: center;
+    color:brown;
+}
+.card-3{
+    width: 100%;
+    /* min-height: 100vh; */
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+mat-form-field{
+    display: block;
+}
+div button{
+    margin-right: 15px;
+}
+.btn{
+    margin-top: 20px;
+}
+textarea.mat-input-element{
+    overflow: hidden;
+}
+form{
+    padding: 20px;
+    
+}
+
+.inline mat-form-field{
+    display: inline-block;
+    width: 40%;
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+}
+.cc{
+    width: 80px !important;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style:georgian;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 2px 12px;
+    font-size: 12px;
+    margin: 0;
+}
+ul{
+    margin-left: 20px;
+}
+
+li::marker{
+    display: none;
+    list-style-type: disc;
+}

@@ -1,0 +1,101 @@
+<mat-drawer-container class="example-container" autosize>
+  
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <app-accordion></app-accordion>
+  </mat-drawer>
+  
+  <div class="example-sidenav-content">
+    <mat-icon
+      ><span
+        mat-button
+        (click)="drawer.toggle()"
+        class="material-icons toggle_btn"
+      >
+        menu_open
+      </span></mat-icon
+    >
+  </div>
+
+  <section class="toggle_actions">
+    <mat-button-toggle-group>
+      <mat-button-toggle value="Messages">Messages</mat-button-toggle>
+      <mat-button-toggle value="Social">Social</mat-button-toggle>
+      <mat-button-toggle value="Notifications">Notifications</mat-button-toggle>
+      <mat-button-toggle value="Backup">Backup</mat-button-toggle>
+    </mat-button-toggle-group>
+  </section>
+
+  <section class="main_container">
+    <div class="one">
+      <mat-card class="card-profile">
+        <mat-card-title>
+          <mat-icon><span class="material-icons"> person </span> </mat-icon>
+          <p>Profile</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon
+            ><span class="material-icons"> lock_person </span>
+          </mat-icon>
+          <p>Basic Info</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon
+            ><span class="material-icons"> lock_person </span>
+          </mat-icon>
+          <p>Change Password</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon><span class="material-icons"> umbrella </span> </mat-icon>
+          <p>2FA</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon
+            ><span class="material-icons"> switch_account </span>
+          </mat-icon>
+          <p>Accounts</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon><span class="material-icons"> add_alert </span> </mat-icon>
+          <p>Notifications</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon><span class="material-icons"> star_half </span> </mat-icon>
+          <p>Sessions</p>
+        </mat-card-title>
+        <mat-card-title>
+          <mat-icon
+            ><span class="material-icons"> auto_delete </span>
+          </mat-icon>
+          <p>Delete Account</p>
+        </mat-card-title>
+      </mat-card>
+    </div>
+    <div class="two">
+      <mat-card class="card-1">
+        <div class="first-1">
+          <img src="../../assets/images/bruce-mars.8a606c4a.jpg" alt="user" />
+
+          <div>
+            <h2 class="h5">Alex-Thompson</h2>
+            <h5 class="h5">CEO / Co-Founder</h5>
+          </div>
+        </div>
+        <div class="first-2">
+          <p>Switch to Invisible</p>
+          <mat-slide-toggle></mat-slide-toggle>
+        </div>
+      </mat-card>
+     <app-reactive-form>  </app-reactive-form>
+     <app-reactive-form2></app-reactive-form2>
+     <app-reactive-form3></app-reactive-form3>
+     <app-reactive-form4></app-reactive-form4>
+     <app-reactive-form5></app-reactive-form5>
+     <app-reactive-form6></app-reactive-form6>
+     <app-reactive-form7></app-reactive-form7>
+     
+    </div>
+    
+  </section>
+  <app-footer></app-footer>
+ 
+</mat-drawer-container>

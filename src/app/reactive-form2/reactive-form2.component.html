@@ -1,0 +1,42 @@
+
+
+
+<mat-card class="card-3">
+       
+    <mat-card-content>
+        <h2>Change Password</h2>
+  <form [formGroup]="loginForm2">
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input formControlName="username" matInput />
+        </mat-form-field>
+     
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input formControlName="password" matInput />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label> Confirm Password</mat-label>
+            <input formControlName="password" matInput />
+          </mat-form-field>
+       
+       
+        
+      </form>
+
+      <div class="content-1">
+        <h3 style="font-weight: 700;font-size: 20px;">Password requirements</h3>
+        <p style="font-size: 17px;font-weight: 100;">Please follow this guide for a strong password</p>
+        <ul>
+          <li>One special characters</li>
+          <li>Min 6 characters</li>
+          <li>One number (2 are recommended)</li>
+          <div class="flex">
+          <li >Change it often</li>
+          <button mat-button class="btn">UPDATE PASSWORD</button>
+        </div>
+        </ul>
+      </div>
+    </mat-card-content>
+  </mat-card> 
